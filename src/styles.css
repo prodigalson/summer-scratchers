@@ -1,2 +1,509 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@500;600;700;800;900&display=swap');
-:root{font-family:Inter,sans-serif;color:#fff;background:#071b24;font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-height:100svh;background:radial-gradient(circle at 50% 0,#174c5c,#07171e 60%);overscroll-behavior:none}button{font:inherit}.app-shell{width:100%;min-height:100svh;max-width:430px;margin:auto;background:#f4eee0;position:relative;overflow:hidden;box-shadow:0 0 80px #0009}.landing{min-height:100svh;background:#f5efe3;color:#15313a;padding-bottom:24px}.hero{height:290px;padding:30px 24px 18px;background:linear-gradient(150deg,#ef5c37,#f6963b 68%,#f9c94b);color:white;position:relative;overflow:hidden}.hero:before,.hero:after{content:"";position:absolute;border:1px solid #fff5;border-radius:50%;width:390px;height:390px;right:-225px;top:-150px}.hero:after{width:250px;height:250px;right:-130px;top:-72px}.mini{font-size:9px;font-weight:900;letter-spacing:2.1px;color:#fff6bd}.sun-mark{position:absolute;right:27px;top:31px}.sun-mark svg{width:42px;height:42px;color:#ffe46c}.hero h1{font-family:'Archivo Black';font-size:48px;line-height:.88;letter-spacing:-2.8px;margin:44px 0 18px;transform:skewY(-2deg);text-shadow:4px 4px 0 #b84235}.hero h1 em{font-style:normal;color:#fff082}.hero p{margin:0;border-top:1px solid #ffffff88;padding-top:12px;font-size:12px;letter-spacing:1px;text-transform:uppercase;font-weight:900}.intro{padding:21px 18px 8px}.issue{display:flex;justify-content:space-between;align-items:end;margin:0 3px 15px}.issue span{font-family:'Archivo Black';font-size:13px}.issue small{font-size:8px;letter-spacing:1px;color:#75858a}.hero-ticket{background:#10a9b2;color:white;border-radius:10px;overflow:hidden;box-shadow:0 8px 0 #0b747c,0 16px 28px #12394233}.ticket-ribbon{background:#143c55;padding:10px 12px;display:flex;justify-content:space-between;font-size:10px;letter-spacing:1px;font-weight:900}.ticket-ribbon b{color:#ffda58}.ticket-content{min-height:124px;display:grid;grid-template-columns:72px 1fr 22px;gap:13px;align-items:center;padding:15px;background:repeating-linear-gradient(45deg,#ffffff08 0 7px,#fff0 7px 14px)}.globe{height:70px;border-radius:50%;border:4px solid white;background:#65d2c1;display:grid;place-items:center;color:#0b6b73}.globe svg{width:39px;height:39px}.ticket-content small{font-size:7px;letter-spacing:1.5px}.ticket-content h2{font-family:'Archivo Black';font-size:22px;line-height:1;margin:5px 0}.ticket-content p{font-size:9px;text-transform:uppercase;font-weight:800;margin:0}.hero-ticket>button{border:0;border-top:1px solid #ffffff44;background:#ef5c37;color:white;width:100%;padding:13px;display:flex;align-items:center;justify-content:center;gap:8px;font-size:10px;font-weight:900;letter-spacing:1.4px;cursor:pointer}.hero-ticket>button svg{width:15px}.destinations{margin-top:23px}.destinations>span{font-size:8px;font-weight:900;letter-spacing:1.5px;color:#839195}.destinations>div{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}.destinations i{font-style:normal;font-size:8px;text-transform:uppercase;font-weight:800;border:1px solid #cad1ce;color:#50646a;padding:5px 7px;border-radius:20px;background:white}.legal{text-align:center;color:#8c908b;font-size:8px;text-transform:uppercase;letter-spacing:.5px;padding:3px 20px}.game{min-height:100svh;background:#102d37}.game nav{height:70px;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;background:#09212a;border-bottom:1px solid #ffffff1c}.game nav button{border:1px solid #ffffff27;background:#ffffff0c;color:white;border-radius:30px;padding:8px 12px;display:flex;align-items:center;gap:5px;font-size:10px;font-weight:800}.game nav button svg{width:16px}.game nav>div{text-align:right}.game nav span{display:block;font-size:7px;letter-spacing:1.5px;color:#94afb8}.game nav b{font-family:'Archivo Black';color:#ffe061;font-size:20px}.game-stage{padding:19px 14px 40px;display:flex;flex-direction:column;align-items:center}.vacation-card{width:100%;max-width:362px;border:4px solid #f6a446;background:#f27a38;border-radius:11px;overflow:hidden;box-shadow:0 18px 38px #0009;position:relative}.vacation-card:after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(45deg,#fff0 0 8px,#fff1 8px 9px)}.vacation-card>header{height:82px;background:#0aa5ae;border-bottom:4px solid #08777f;padding:10px;display:grid;grid-template-columns:36px 1fr 36px;align-items:center;text-align:center}.vacation-card>header svg{color:#ffe469;width:28px}.vacation-card>header span{font-size:7px;letter-spacing:2px;font-weight:900}.vacation-card>header h2{font-family:'Archivo Black';font-size:23px;line-height:1;margin:5px 0 0}.instructions{background:#ffdb4f;color:#a53829;margin:0;text-align:center;padding:7px;font-size:8px;letter-spacing:1px;text-transform:uppercase;font-weight:900}.reveals{padding:11px 9px;display:flex;flex-direction:column;gap:9px}.reveal{background:#fff6e5;border-radius:7px;padding:7px;box-shadow:inset 0 0 0 2px #e3b365;color:#16343c}.reveal-label{height:34px;display:grid;grid-template-columns:28px 1fr 25px;align-items:center;gap:8px;padding:0 3px}.reveal-label>b{font-family:'Archivo Black';font-size:17px;color:#ef653d}.reveal-label span,.reveal-label small{display:block}.reveal-label span{font-family:'Archivo Black';font-size:11px}.reveal-label small{font-size:7px;text-transform:uppercase;letter-spacing:.6px;color:#7d8989}.reveal-label svg{width:20px;color:#0c9aa5}.scratch-zone{height:72px;position:relative;overflow:hidden;border-radius:5px;background:white}.scratch-zone canvas{position:absolute;inset:0;z-index:4;touch-action:none;cursor:crosshair}.answer{height:72px;display:grid;grid-template-columns:38px 1fr;grid-template-rows:1fr 1fr;align-items:center;padding:9px 13px;background:#fff}.answer svg{grid-row:1/3;color:#ed633f;width:30px}.answer strong{font-family:'Archivo Black';font-size:20px;align-self:end;line-height:1;text-transform:uppercase}.answer span{align-self:start;font-size:7px;text-transform:uppercase;font-weight:800;letter-spacing:.8px;color:#879092}.is-revealed{box-shadow:inset 0 0 0 2px #ffdc4d}.vacation-card>footer{height:39px;background:#db5d2d;display:flex;justify-content:space-between;align-items:center;padding:0 12px;font-size:6px;font-weight:900;letter-spacing:.9px}.result{width:100%;max-width:362px;background:white;color:#18343b;border-radius:10px;margin-top:15px;padding:13px;display:flex;align-items:center;gap:12px;box-shadow:0 10px 28px #0004;animation:pop .3s}.result>svg{background:#0aa5ae;color:white;border-radius:50%;padding:6px;width:34px;height:34px;flex:none}.result small{font-size:7px;letter-spacing:1.3px;font-weight:900;color:#e15a39}.result p{font-size:11px;line-height:1.45;margin:3px 0 0}.result b{color:#0a8790}.reset{margin-top:18px;border:1px solid #ffffff30;background:#ffffff0d;color:#c2d0d4;padding:10px 16px;border-radius:30px;display:flex;gap:8px;align-items:center;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.8px}.reset svg{width:15px}@keyframes pop{from{transform:translateY(10px);opacity:0}}@media(min-width:431px){.app-shell{margin-top:20px;margin-bottom:20px;min-height:812px;border-radius:32px}.landing,.game{min-height:812px}}
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@500;600;700;800;900&display=swap");
+:root {
+  font-family: Inter, sans-serif;
+  color: #fff;
+  background: #071b24;
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100svh;
+  background: radial-gradient(circle at 50% 0, #174c5c, #07171e 60%);
+  overscroll-behavior: none;
+}
+button {
+  font: inherit;
+}
+.app-shell {
+  width: 100%;
+  min-height: 100svh;
+  max-width: 430px;
+  margin: auto;
+  background: #f4eee0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 80px #0009;
+}
+.landing {
+  min-height: 100svh;
+  background: #f5efe3;
+  color: #15313a;
+  padding-bottom: 24px;
+}
+.hero {
+  height: 290px;
+  padding: 30px 24px 18px;
+  background: linear-gradient(150deg, #ef5c37, #f6963b 68%, #f9c94b);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.hero:before,
+.hero:after {
+  content: "";
+  position: absolute;
+  border: 1px solid #fff5;
+  border-radius: 50%;
+  width: 390px;
+  height: 390px;
+  right: -225px;
+  top: -150px;
+}
+.hero:after {
+  width: 250px;
+  height: 250px;
+  right: -130px;
+  top: -72px;
+}
+.mini {
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 2.1px;
+  color: #fff6bd;
+}
+.sun-mark {
+  position: absolute;
+  right: 27px;
+  top: 31px;
+}
+.sun-mark svg {
+  width: 42px;
+  height: 42px;
+  color: #ffe46c;
+}
+.hero h1 {
+  font-family: "Archivo Black";
+  font-size: 48px;
+  line-height: 0.88;
+  letter-spacing: -2.8px;
+  margin: 44px 0 18px;
+  transform: skewY(-2deg);
+  text-shadow: 4px 4px 0 #b84235;
+}
+.hero h1 em {
+  font-style: normal;
+  color: #fff082;
+}
+.hero p {
+  margin: 0;
+  border-top: 1px solid #ffffff88;
+  padding-top: 12px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.intro {
+  padding: 21px 18px 8px;
+}
+.issue {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 0 3px 15px;
+}
+.issue span {
+  font-family: "Archivo Black";
+  font-size: 13px;
+}
+.issue small {
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: #75858a;
+}
+.hero-ticket {
+  background: #10a9b2;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow:
+    0 8px 0 #0b747c,
+    0 16px 28px #12394233;
+}
+.ticket-ribbon {
+  background: #143c55;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+.ticket-ribbon b {
+  color: #ffda58;
+}
+.ticket-content {
+  min-height: 124px;
+  display: grid;
+  grid-template-columns: 72px 1fr 22px;
+  gap: 13px;
+  align-items: center;
+  padding: 15px;
+  background: repeating-linear-gradient(45deg, #ffffff08 0 7px, #fff0 7px 14px);
+}
+.globe {
+  height: 70px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background: #65d2c1;
+  display: grid;
+  place-items: center;
+  color: #0b6b73;
+}
+.globe svg {
+  width: 39px;
+  height: 39px;
+}
+.ticket-content small {
+  font-size: 7px;
+  letter-spacing: 1.5px;
+}
+.ticket-content h2 {
+  font-family: "Archivo Black";
+  font-size: 22px;
+  line-height: 1;
+  margin: 5px 0;
+}
+.ticket-content p {
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 0;
+}
+.hero-ticket > button {
+  border: 0;
+  border-top: 1px solid #ffffff44;
+  background: #ef5c37;
+  color: white;
+  width: 100%;
+  padding: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 1.4px;
+  cursor: pointer;
+}
+.hero-ticket > button svg {
+  width: 15px;
+}
+.destinations {
+  margin-top: 23px;
+}
+.destinations > span {
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  color: #839195;
+}
+.destinations > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 9px;
+}
+.destinations i {
+  font-style: normal;
+  font-size: 8px;
+  text-transform: uppercase;
+  font-weight: 800;
+  border: 1px solid #cad1ce;
+  color: #50646a;
+  padding: 5px 7px;
+  border-radius: 20px;
+  background: white;
+}
+.legal {
+  text-align: center;
+  color: #8c908b;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 3px 20px;
+}
+.game {
+  min-height: 100svh;
+  background: #102d37;
+}
+.game nav {
+  height: 70px;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #09212a;
+  border-bottom: 1px solid #ffffff1c;
+}
+.game nav button {
+  border: 1px solid #ffffff27;
+  background: #ffffff0c;
+  color: white;
+  border-radius: 30px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: 800;
+}
+.game nav button svg {
+  width: 16px;
+}
+.game nav > div {
+  text-align: right;
+}
+.game nav span {
+  display: block;
+  font-size: 7px;
+  letter-spacing: 1.5px;
+  color: #94afb8;
+}
+.game nav b {
+  font-family: "Archivo Black";
+  color: #ffe061;
+  font-size: 20px;
+}
+.game-stage {
+  padding: 19px 14px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vacation-card {
+  width: 100%;
+  max-width: 362px;
+  border: 4px solid #f6a446;
+  background: #f27a38;
+  border-radius: 11px;
+  overflow: hidden;
+  box-shadow: 0 18px 38px #0009;
+  position: relative;
+}
+.vacation-card:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(45deg, #fff0 0 8px, #fff1 8px 9px);
+}
+.vacation-card > header {
+  height: 82px;
+  background: #0aa5ae;
+  border-bottom: 4px solid #08777f;
+  padding: 10px 14px;
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr) 30px;
+  gap: 6px;
+  align-items: center;
+  text-align: center;
+}
+.vacation-card > header svg {
+  color: #ffe469;
+  width: 26px;
+}
+.vacation-card > header svg:last-child {
+  justify-self: end;
+}
+.vacation-card > header span {
+  font-size: 7px;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+.vacation-card > header h2 {
+  font-family: "Archivo Black";
+  font-size: 18px;
+  line-height: 1;
+  margin: 7px 0 0;
+  letter-spacing: -0.5px;
+  white-space: nowrap;
+}
+.instructions {
+  background: #ffdb4f;
+  color: #a53829;
+  margin: 0;
+  text-align: center;
+  padding: 7px;
+  font-size: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.reveals {
+  padding: 11px 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.reveal {
+  background: #fff6e5;
+  border-radius: 7px;
+  padding: 7px;
+  box-shadow: inset 0 0 0 2px #e3b365;
+  color: #16343c;
+}
+.reveal-label {
+  height: 34px;
+  display: grid;
+  grid-template-columns: 28px 1fr 25px;
+  align-items: center;
+  gap: 8px;
+  padding: 0 3px;
+}
+.reveal-label > b {
+  font-family: "Archivo Black";
+  font-size: 17px;
+  color: #ef653d;
+}
+.reveal-label span,
+.reveal-label small {
+  display: block;
+}
+.reveal-label span {
+  font-family: "Archivo Black";
+  font-size: 11px;
+}
+.reveal-label small {
+  font-size: 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #7d8989;
+}
+.reveal-label svg {
+  width: 20px;
+  color: #0c9aa5;
+}
+.scratch-zone {
+  height: 72px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  background: white;
+}
+.scratch-zone canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  touch-action: none;
+  cursor: crosshair;
+}
+.answer {
+  height: 72px;
+  display: grid;
+  grid-template-columns: 38px 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  padding: 9px 13px;
+  background: #fff;
+}
+.answer svg {
+  grid-row: 1/3;
+  color: #ed633f;
+  width: 30px;
+}
+.answer strong {
+  font-family: "Archivo Black";
+  font-size: 20px;
+  align-self: end;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.answer span {
+  align-self: start;
+  font-size: 7px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  color: #879092;
+}
+.is-revealed {
+  box-shadow: inset 0 0 0 2px #ffdc4d;
+}
+.vacation-card > footer {
+  height: 39px;
+  background: #db5d2d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+  font-size: 6px;
+  font-weight: 900;
+  letter-spacing: 0.9px;
+}
+.result {
+  width: 100%;
+  max-width: 362px;
+  background: white;
+  color: #18343b;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 13px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 10px 28px #0004;
+  animation: pop 0.3s;
+}
+.result > svg {
+  background: #0aa5ae;
+  color: white;
+  border-radius: 50%;
+  padding: 6px;
+  width: 34px;
+  height: 34px;
+  flex: none;
+}
+.result small {
+  font-size: 7px;
+  letter-spacing: 1.3px;
+  font-weight: 900;
+  color: #e15a39;
+}
+.result p {
+  font-size: 11px;
+  line-height: 1.45;
+  margin: 3px 0 0;
+}
+.result b {
+  color: #0a8790;
+}
+.reset {
+  margin-top: 18px;
+  border: 1px solid #ffffff30;
+  background: #ffffff0d;
+  color: #c2d0d4;
+  padding: 10px 16px;
+  border-radius: 30px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 9px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+.reset svg {
+  width: 15px;
+}
+@keyframes pop {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}
+@media (min-width: 431px) {
+  .app-shell {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 812px;
+    border-radius: 32px;
+  }
+  .landing,
+  .game {
+    min-height: 812px;
+  }
+}

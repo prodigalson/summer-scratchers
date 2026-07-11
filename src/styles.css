@@ -434,19 +434,22 @@ button {
   font-weight: 900;
   letter-spacing: 0.9px;
 }
-.result {
+.result-wrap {
   width: 100%;
   max-width: 362px;
+  margin-top: 15px;
+  animation: pop 0.3s;
+}
+.result {
+  width: 100%;
   background: white;
   color: #18343b;
   border-radius: 10px;
-  margin-top: 15px;
   padding: 13px;
   display: flex;
   align-items: center;
   gap: 12px;
   box-shadow: 0 10px 28px #0004;
-  animation: pop 0.3s;
 }
 .result > svg {
   background: #0aa5ae;
@@ -470,6 +473,42 @@ button {
 }
 .result b {
   color: #0a8790;
+}
+.result-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 9px;
+}
+.result-actions button {
+  min-height: 43px;
+  border: 1px solid #ffffff35;
+  border-radius: 8px;
+  background: #ffffff12;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.result-actions .share-button {
+  border-color: #ffd85f;
+  background: #ffd85f;
+  color: #17333c;
+}
+.result-actions svg {
+  width: 16px;
+}
+.share-feedback {
+  margin: 8px 0 0;
+  text-align: center;
+  color: #d6e5e8;
+  font-size: 9px;
+  font-weight: 800;
 }
 .reset {
   margin-top: 18px;

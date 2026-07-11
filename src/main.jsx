@@ -3,7 +3,7 @@ import {createRoot} from 'react-dom/client';
 import {ArrowLeft, ArrowRight, Check, Compass, Heart, MapPin, Palmtree, PartyPopper, Plane, RefreshCw, Sparkles, Sun, Users, Waves} from 'lucide-react';
 import './styles.css';
 
-const destinations=['Sardegna','Mykonos','Ibiza','Puglia','Sicily','Marbella','St. Tropez','Çeşme','Amalfi Coast','Mallorca','Santorini','Hvar','Dubai','Miami','Bodrum','Cap Ferret','Milos','Crete','Corsica'];
+const destinations=['Sardegna','Mykonos','Ibiza','Puglia','Sicily','Marbella','St. Tropez','Çeşme','Amalfi Coast','Mallorca','Santorini','Hvar','Dubai','Miami','Bodrum','Cap Ferret','Milos','Crete','Corsica','Algarve','Azores','Madeira','Dolomites'];
 const companions=["Your ex","Your friend’s ex","Your crush"];
 const activities=['Clubbing','Boating','Beach day','Romantic restaurant','Art gallery','Sunset cocktails','Sailing','Beach club','Old-town adventure','Arguing','Wine tasting','Bike ride'];
 const pick=a=>a[Math.floor(Math.random()*a.length)];

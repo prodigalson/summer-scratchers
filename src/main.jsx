@@ -56,6 +56,8 @@ const activities = [
   "Arguing",
   "Wine tasting",
   "Bike ride",
+  "Watching World Cup",
+  "Watching Netflix",
 ];
 const pick = (a) => a[Math.floor(Math.random() * a.length)];
 

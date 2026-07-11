@@ -5,7 +5,7 @@ import './styles.css';
 
 const destinations=['Sardegna','Mykonos','Ibiza','Puglia','Sicily','Marbella','St. Tropez','Çeşme','Amalfi Coast','Mallorca','Santorini','Hvar','Dubai','Miami','Bodrum','Cap Ferret','Milos','Crete','Corsica'];
 const companions=["Your ex","Your friend’s ex","Your crush"];
-const activities=['Clubbing','Boating','Beach day','Romantic restaurant','Art gallery','Sunset cocktails','Sailing','Beach club','Old-town adventure'];
+const activities=['Clubbing','Boating','Beach day','Romantic restaurant','Art gallery','Sunset cocktails','Sailing','Beach club','Old-town adventure','Arguing','Wine tasting','Bike ride'];
 const pick=a=>a[Math.floor(Math.random()*a.length)];
 
 function Scratch({children,label,onReveal,resetKey}){

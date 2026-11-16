@@ -305,7 +305,8 @@ function Landing({ play }) {
         </div>
       </section>
       <footer className="legal">
-        A playful summer vacation generator. No purchases or real prizes.
+        A playful summer vacation generator. No purchases or real prizes.{" "}
+        <a href="https://chingularity.com/terms" target="_blank" rel="noopener" style={{ color: "inherit" }}>Terms</a>
       </footer>
     </main>
   );

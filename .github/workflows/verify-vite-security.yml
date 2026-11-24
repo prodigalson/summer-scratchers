@@ -1,0 +1,26 @@
+name: Verify Vite security update
+on:
+  push:
+    branches: [fix/vite-security-20261124]
+    paths: ['.github/workflows/verify-vite-security.yml']
+permissions:
+  contents: read
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --save-dev 'vite@^7.3.8' --package-lock-only --ignore-scripts --no-audit
+      - uses: actions/upload-artifact@v4
+        with:
+          name: patched-dependencies
+          path: |
+            package.json
+            package-lock.json
+      - run: npm ci
+      - run: npm run build
